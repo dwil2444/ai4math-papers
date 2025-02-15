@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+- [Survey/Position](#survey)
 - [Automated Theorem Proving](#automated-theorem-proving)
 - [Synthetic Theorem Generation](#synthetic-theorem-generation)
 - [Autoformalization](#autoformalization)
@@ -10,6 +11,15 @@
 - [Benchmarks](#benchmarks)
 - [Human-in-the-loop](#human-in-the-loop)
 - [Constructing Examples / Counterexamples](#constructing-examples--counterexamples)
+
+## Survey
+
+- **Formal Mathematical Reasoning: A New Frontier in AI**  *arXiv preprint 2024* [[pdf](https://arxiv.org/pdf/2412.16075)]
+
+    *Kaiyu Yang, Gabriel Poesia, Jingxuan He, Wenda Li, Kristin Lauter, Swarat Chaudhuri, Dawn Song*
+
+
+---------------------------------------
 
 ## Automated Theorem Proving
 
@@ -177,6 +187,8 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 
     *Huajian Xin, Z.Z. Ren, Junxiao Song, Zhihong Shao, Wanjia Zhao, Haocheng Wang, Bo Liu, Liyue Zhang, Xuan Lu, Qiushi Du, Wenjun Gao, Qihao Zhu, Dejian Yang, Zhibin Gou, Z.F. Wu, Fuli Luo, Chong Ruan*
 
+---------------------------------------
+
 ## Synthetic Theorem Generation
 
 - **Learning to Prove Theorems by Learning to Generate Theorems.** *NeurIPS 2020* [[pdf](https://proceedings.neurips.cc/paper/2020/file/d2a27e83d429f0dcae6b937cf440aeb1-Paper.pdf)] [[code](https://github.com/princeton-vl/MetaGen)]
@@ -199,6 +211,10 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 - **ATG: Benchmarking Automated Theorem Generation for Generative Language Models.** *NAACL 2024* [[pdf](https://openreview.net/forum?id=H0RzzhAxTv)]
 
     *Xiaohan Lin, Qingxing Cao, Yinya Huang, Zhicheng Yang, Zhengying Liu, Zhenguo Li, Xiaodan Liang*
+
+
+---------------------------------------
+
 
 ## Autoformalization
 
@@ -229,6 +245,8 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 
     *Ruida Wang, Jipeng Zhang, Yizhen Jia, Rui Pan, Shizhe Diao, Renjie Pi, Tong Zhang*
 
+---------------------------------------
+
 
 ## Proof Refactoring
 
@@ -237,6 +255,8 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 
     *Jin Peng Zhou, Yuhuai Wu, Qiyang Li, Roger Grosse*
 
+
+---------------------------------------
 
 ## Premise Selection
 
@@ -264,6 +284,8 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 - **Magnushammer: A Transformer-based Approach to Premise Selection.** *ICLR 2024* [[pdf](https://arxiv.org/pdf/2303.04488.pdf)]
 
     *Maciej Mikuła, Szymon Antoniak, Szymon Tworkowski, Albert Qiaochu Jiang, Jin Peng Zhou, Christian Szegedy, Łukasz Kuciński, Piotr Miłoś, Yuhuai Wu*
+
+---------------------------------------
 
 
 ## Benchmarks
@@ -334,6 +356,9 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 
     *Xiaohan Lin, Qingxing Cao, Yinya Huang, Zhicheng Yang, Zhengying Liu, Zhenguo Li, Xiaodan Liang*
 
+
+---------------------------------------
+
 ## Human-in-the-loop
 - **Advancing mathematics by guiding human intuition with AI.** *Nature 2021* [[pdf](https://www.nature.com/articles/s41586-021-04086-x)]
     
@@ -355,6 +380,12 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 - **Can Transformers Do Enumerative Geometry?** *arXiv preprint 2024* [[pdf](https://www.arxiv.org/pdf/2408.14915)]
 
     *Baran Hashemi, Roderic G. Corominas, Alessandro Giacchetto*
+
+- **Deductive Verification of Chain-of-Thought Reasoning** *NeurIPS 2023* [[pdf](https://arxiv.org/pdf/2412.16075)] [[code](https://github.com/lz1oceani/verify_cot)]
+
+    *Zhan Ling, Yunhao Fang, Xuanlin Li, Zhiao Huang, Mingu Lee, Roland Memisevic, Hao Su*
+
+---------------------------------------
 
 ## Constructing Examples / Counterexamples
 
