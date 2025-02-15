@@ -11,6 +11,7 @@
 - [Benchmarks](#benchmarks)
 - [Human-in-the-loop](#human-in-the-loop)
 - [Constructing Examples / Counterexamples](#constructing-examples--counterexamples)
+- [LLM Verification](#Validation-and-Verification)
 
 ## Survey
 
@@ -187,6 +188,9 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 
     *Huajian Xin, Z.Z. Ren, Junxiao Song, Zhihong Shao, Wanjia Zhao, Haocheng Wang, Bo Liu, Liyue Zhang, Xuan Lu, Qiushi Du, Wenjun Gao, Qihao Zhu, Dejian Yang, Zhibin Gou, Z.F. Wu, Fuli Luo, Chong Ruan*
 
+- **COPRA: An In-Context Learning Agent for Formal Theorem-Proving**  *COLM 2024* [[pdf](https://arxiv.org/pdf/2310.04353)] [[code](https://github.com/trishullab/copra)]  
+    *Amitayush Thakur, George Tsoukalas, Yeming Wen, Jimmy Xin & Swarat Chaudhuri*
+
 ---------------------------------------
 
 ## Synthetic Theorem Generation
@@ -359,7 +363,7 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 
 ---------------------------------------
 
-## Human-in-the-loop
+## Human-in-the-loops
 - **Advancing mathematics by guiding human intuition with AI.** *Nature 2021* [[pdf](https://www.nature.com/articles/s41586-021-04086-x)]
     
     *Alex Davies, Petar Veličković, Lars Buesing, Sam Blackwell, Daniel Zheng, Nenad Tomašev, Richard Tanburn, Peter Battaglia, Charles Blundell, András Juhász, Marc Lackenby, Geordie Williamson, Demis Hassabis & Pushmeet Kohli*
@@ -397,6 +401,22 @@ Conference on Logic for Programming, Artificial Intelligence and Reasoning 2017*
 
     *Sergei Gukov, James Halverson, Ciprian Manolescu, Fabian Ruehle*
 
-- **Mathematical discoveries from program search with large language models.** *Nature 2024* [[pdf](https://www.nature.com/articles/s41586-023-06924-6)][[code](https://github.com/google-deepmind/funsearch)]
+- **Mathematical discoveries from program search with large language models.** *Nature 2024* [[pdf](https://www.nature.com/articles/s41586-023-06924-6)] [[code](https://github.com/google-deepmind/funsearch)]
 
     *Bernardino Romera-Paredes, Mohammadamin Barekatain, Alexander Novikov, Matej Balog, M. Pawan Kumar, Emilien Dupont, Francisco J. R. Ruiz, Jordan S. Ellenberg, Pengming Wang, Omar Fawzi, Pushmeet Kohli, Alhussein Fawzi*
+
+---------------------------------------
+
+## Validation and Verification
+
+- **LINC: A Neurosymbolic Approach for Logical Reasoning by Combining Language Models with First-Order Logic Provers** *EMNLP 2023* [[pdf](https://aclanthology.org/2023.emnlp-main.313.pdf)] [[code](https://github.com/benlipkin/linc)]
+
+    *Theo X. Olausson, Alex Gu, Benjamin Lipkin, Cedegao E. Zhang, Armando Solar-Lezama, Joshua B. Tenenbaum, Roger Levy*
+
+- **SATLM: Satisfiability-Aided Language Models Using Declarative Prompting** *NeurIPS 2024* [[pdf](https://proceedings.neurips.cc/paper_files/paper/2023/file/8e9c7d4a48bdac81a58f983a64aaf42b-Paper-Conference.pdf)]  [[code](https://github.com/xiye17/SAT-LM)]
+
+    *Xi Ye, Qiaochu Chen, Isil Dillig, Greg Durrett*
+
+
+- **Certified Deductive Reasoning with Language Models** *arxiv submission* [[pdf](https://arxiv.org/pdf/2306.04031)]  [[code](https://github.com/gpoesia/certified-reasoning)]  
+    *Gabriel Poesia, Kanishk Gandhi, Eric Zelikman, Noah D. Goodman*
